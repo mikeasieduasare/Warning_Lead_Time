@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Experiment outputs (large; regenerate via scripts/)
+*.npz
+*.pth
+*.pt
+*.ckpt
+
+# Generated results
+results/
+outputs/
+figures/
+*.csv
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
